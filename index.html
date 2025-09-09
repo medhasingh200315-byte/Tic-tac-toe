@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Advanced Tic-Tac-Toe</h1>
+    
+    <div class="game-controls">
+        <div class="control-group">
+            <div class="control-label">Grid Size</div>
+            <select class="size-selector" id="size-selector">
+                <option value="3">3×3 (Classic)</option>
+                <option value="4">4×4 (Advanced)</option>
+                <option value="5">5×5 (Expert)</option>
+                <option value="6">6×6 (Master)</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score-item">
+            <div class="score-label">Player X</div>
+            <div class="score-value" id="score-x">0</div>
+        </div>
+        <div class="score-item">
+            <div class="score-label">Draws</div>
+            <div class="score-value" id="score-draw">0</div>
+        </div>
+        <div class="score-item">
+            <div class="score-label">Player O</div>
+            <div class="score-value" id="score-o">0</div>
+        </div>
+    </div>
+
+    <div class="game-board size-3" id="game-board">
+    </div>
+    
+    <div class="status-message" id="status-message">Player X's turn</div>
+    <button class="restart-btn" id="restart-btn" style="display: none;">🎮 New Game</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
