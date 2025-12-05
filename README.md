@@ -2,11 +2,6 @@
 
 A modern, responsive, and accessible tic-tac-toe game built with vanilla HTML, CSS, and JavaScript. This project demonstrates industry-standard web development best practices including proper code structure, responsive design, accessibility features, error handling, and performance optimizations.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-
 ## ✨ Features
 
 ### 🎯 Core Functionality
@@ -40,41 +35,6 @@ A modern, responsive, and accessible tic-tac-toe game built with vanilla HTML, C
 - A modern web browser (Chrome, Firefox, Safari, Edge - latest versions)
 - No additional dependencies or build tools required
 - Optional: A local web server for development (recommended)
-
-### Installation
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/yourusername/tictac.git
-cd tictac
-```
-
-2. **Open the game:**
-
-   **Option A: Direct File Access**
-   - Simply open `index.html` in your web browser
-   
-   **Option B: Local Server (Recommended)**
-   ```bash
-   # Using Python 3
-   python -m http.server 8000
-   
-   # Using Python 2
-   python -m SimpleHTTPServer 8000
-   
-   # Using Node.js (http-server)
-   npx http-server
-   
-   # Using PHP
-   php -S localhost:8000
-   
-   # Using Ruby
-   ruby -run -e httpd . -p 8000
-   ```
-
-3. **Navigate to the game:**
-   - Open your browser and go to `http://localhost:8000`
-   - Or open `index.html` directly
 
 ## 📖 How to Play
 
@@ -113,7 +73,6 @@ tictac/
 ├── style.css               # Complete stylesheet with responsive design
 ├── script.js               # Game logic and functionality
 ├── README.md               # Project documentation (this file)
-└── BEST_PRACTICES_CHECKLIST.md  # Verification of best practices
 ```
 
 ## 🎨 Code Quality & Best Practices
@@ -259,95 +218,6 @@ The game includes comprehensive error handling:
 - **User-Friendly Messages**: Clear error messages with visual feedback
 - **Fallback Mechanisms**: Graceful degradation on errors
 
-## 🚀 Deployment
-
-### GitHub Pages
-
-1. Push your code to a GitHub repository
-2. Go to **Settings** → **Pages**
-3. Select your branch (usually `main` or `master`)
-4. Select the folder (usually `/root`)
-5. Your site will be available at `https://username.github.io/repository-name`
-
-### Netlify
-
-**Option 1: Drag and Drop**
-1. Go to [Netlify](https://www.netlify.com/)
-2. Drag and drop your project folder
-3. Your site is live!
-
-**Option 2: Git Integration**
-1. Connect your GitHub repository
-2. Netlify will automatically deploy on every push
-3. Configure build settings (not needed for static site)
-
-### Vercel
-
-1. Install Vercel CLI: `npm i -g vercel`
-2. Run `vercel` in your project directory
-3. Follow the prompts
-4. Or import your GitHub repository on [Vercel](https://vercel.com/)
-
-### Other Hosting Options
-
-- **Surge.sh**: `surge` (requires Node.js)
-- **Firebase Hosting**: Use Firebase CLI
-- **AWS S3**: Static website hosting
-- **Any static hosting service**
-
-## 🧪 Testing
-
-### Manual Testing Checklist
-
-- [x] Game initialization works correctly
-- [x] Cell clicking functions properly
-- [x] Win detection works for all directions
-- [x] Draw detection works correctly
-- [x] Score tracking persists
-- [x] Grid size changes work
-- [x] Game restart functions
-- [x] Keyboard navigation works
-- [x] Error handling displays properly
-- [x] Responsive design works on all breakpoints
-- [x] Accessibility features function correctly
-
-### Browser Testing
-
-Tested and working on:
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! 
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Contribution Guidelines
-
-- Follow the existing code style
-- Add comments for new functions
-- Test your changes thoroughly
-- Update documentation as needed
-- Ensure accessibility standards are maintained
-
-## 👤 Author
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
-- Portfolio: [yourwebsite.com](https://yourwebsite.com)
 
 ## 🙏 Acknowledgments
 
@@ -356,26 +226,6 @@ Contributions, issues, and feature requests are welcome!
 - Designed with accessibility and user experience in mind
 - Uses [Roboto font](https://fonts.google.com/specimen/Roboto) from Google Fonts
 
-## 📚 Additional Resources
-
-- [Web Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG21/quickref/)
-- [MDN Web Docs](https://developer.mozilla.org/)
-- [CSS-Tricks](https://css-tricks.com/)
-- [JavaScript.info](https://javascript.info/)
-
-## 🎯 Future Enhancements
-
-Potential features for future versions:
-
-- [ ] AI opponent with difficulty levels
-- [ ] Online multiplayer support
-- [ ] Game history and statistics
-- [ ] Custom themes and color schemes
-- [ ] Sound effects and music
-- [ ] Tournament mode
-- [ ] Local storage for persistent scores
-
----
 
 **Built with ❤️ following web development best practices**
 
